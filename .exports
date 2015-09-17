@@ -1,0 +1,8 @@
+# Make vim the default editor.
+export EDITOR='vim';
+
+# nvm
+export NVM_DIR=~/.nvm;
+
+# rbenv
+export RBENV_ROOT=/usr/local/var/rbenv;
