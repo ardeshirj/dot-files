@@ -1,6 +1,3 @@
-# Adopting mathiasbynens dot files:
-# https://github.com/mathiasbynens/dotfiles/
-
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
