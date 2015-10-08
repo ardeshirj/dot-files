@@ -6,3 +6,6 @@ export NVM_DIR=~/.nvm;
 
 # rbenv
 export RBENV_ROOT=/usr/local/var/rbenv;
+
+# android
+export ANDROID_HOME=/usr/local/opt/android-sdk
