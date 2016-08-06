@@ -7,5 +7,8 @@ export NVM_DIR=~/.nvm;
 # rbenv
 export RBENV_ROOT=/usr/local/var/rbenv;
 
+# pyrc
+export PYTHONSTARTUP=~/.pyrc;
+
 # android
-export ANDROID_HOME=/usr/local/opt/android-sdk
+export ANDROID_HOME=/usr/local/opt/android-sdk;
