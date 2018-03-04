@@ -48,4 +48,5 @@ export NVM_DIR="/Users/Alan/.nvm"
 # rvm bash completion
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 
-
+# Undo homebrew python to link to python2
+export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
