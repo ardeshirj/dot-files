@@ -45,7 +45,7 @@ export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
 export PATH="/usr/local/texlive/2018/bin/x86_64-darwin:$PATH"
 
 # nvm
-export NVM_DIR="/Users/Alan/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # rust
