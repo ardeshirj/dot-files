@@ -48,6 +48,9 @@ export PATH="/usr/local/texlive/2018/bin/x86_64-darwin:$PATH"
 export NVM_DIR="/Users/Alan/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # rvm bash completion
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 # rvm - NOTE: rvm is expecting the line below to be the last one in the file!
