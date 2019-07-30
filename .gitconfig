@@ -1,8 +1,9 @@
 [alias]
   lg = log --oneline --graph --decorate --all
-  # lg = --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-  prp = pull --rebase=preserve
+  prp = pull --rebase=merges
 [push]
   default = simple
 [fetch]
   prune = true
+[user]
+	email = ardeshir.javaherchi@gmail.com
