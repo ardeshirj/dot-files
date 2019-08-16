@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.renderControlCharacters": true,
+    "editor.minimap.renderCharacters": false,
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Better Solarized Dark",
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false
+}
