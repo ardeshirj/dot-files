@@ -15,10 +15,8 @@ export NVM_DIR="$HOME/.nvm"
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# rvm bash completion
-[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
-# rvm - NOTE: rvm is expecting the line below to be the last one in the file!
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# rbenv
+eval "$(rbenv init -)"
 
 # GCP
 # The next line updates PATH for the Google Cloud SDK.
